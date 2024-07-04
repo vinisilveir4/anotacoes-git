@@ -1,4 +1,6 @@
-git init - iniciar repositório
+git init - iniciar versionamento git
 git branch -m "parara" - criar branch (ramification a partir da branch main)
 git add - adicionar arquivos ao coimmit
 git commit -m "parara" - salvar/enviar commit
+git rm --cached <nome arquivo> - remove do commit
+git remote -v - lista repositórios remotos
