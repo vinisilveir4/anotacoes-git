@@ -1,0 +1,4 @@
+git init - iniciar repositório
+git branch -m "parara" - criar branch (ramification a partir da branch main)
+git add - adicionar arquivos ao coimmit
+git commit -m "parara" - salvar/enviar commit
