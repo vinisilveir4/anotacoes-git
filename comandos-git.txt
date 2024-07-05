@@ -1,6 +1,8 @@
 git init - iniciar versionamento git
-git branch -m "parara" - criar branch (ramification a partir da branch main)
+git branch -m "parara" - renomeia branch 
 git add - adicionar arquivos ao coimmit
 git commit -m "parara" - salvar/enviar commit
 git rm --cached <nome arquivo> - remove do commit
 git remote -v - lista repositórios remotos
+git push/pull -u origin main - envia ou puxa novas alterações/commits
+git restore --staged <file> - remove da área de stage
