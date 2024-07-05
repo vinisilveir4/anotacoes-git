@@ -7,3 +7,4 @@ git remote -v - lista repositórios remotos
 git push/pull -u origin <nome branch> - envia ou puxa novas alterações/commits
 git restore --staged <file> - remove da área de stage
 git checkout -b <nome> - cria e muda pra nova branch
+git checkout <nome branch> - mudar entre branchs
