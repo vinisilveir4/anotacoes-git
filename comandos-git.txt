@@ -4,5 +4,6 @@ git add - adicionar arquivos ao coimmit
 git commit -m "parara" - salvar/enviar commit
 git rm --cached <nome arquivo> - remove do commit
 git remote -v - lista repositórios remotos
-git push/pull -u origin main - envia ou puxa novas alterações/commits
+git push/pull -u origin <nome branch> - envia ou puxa novas alterações/commits
 git restore --staged <file> - remove da área de stage
+git checkout -b <nome> - cria e muda pra nova branch
