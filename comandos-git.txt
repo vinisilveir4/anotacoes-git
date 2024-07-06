@@ -8,3 +8,8 @@ git push/pull -u origin <nome branch> - envia ou puxa novas alterações/commits
 git restore --staged <file> - remove da área de stage
 git checkout -b <nome> - cria e muda pra nova branch
 git checkout <nome branch> - mudar entre branchs
+git rebase <nome branch> - altera o histórico de commits, exemplo:
+se a branch main tiver novos commits/alterações após uma branch secundaria ter sido criada
+o git rebase main a partir da secundaria ira alterar o histórico adicionando os novos
+commits da main antes dos commits feitos na secundaria e os da secundaria no topo
+mantendo o histórico na ordem correta sem precisar de um merge commit.
